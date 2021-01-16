@@ -1,5 +1,7 @@
-// trie.cpp : Defines the entry point for the console application.
-//
+// This source was written by Stephen Oswin, and is placed in the
+// public domain. The author hereby disclaims copyright to this source
+// code.
+
 #include <map>
 #include <iostream>
 #include <fstream>

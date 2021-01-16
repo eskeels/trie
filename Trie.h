@@ -1,11 +1,13 @@
+// This source was written by Stephen Oswin, and is placed in the
+// public domain. The author hereby disclaims copyright to this source
+// code.
+
 #ifndef __TRIE_H
 #define __TRIE_H
 
 #include <string>
 #include <vector>
-//
-// Author: Stephen Oswin
-//
+
 namespace TDS
 {
 
@@ -201,7 +203,7 @@ template<typename CharType>
 class Trie
 {
 	public:
-		Trie(){ _rootNode = new TrieNode<CharType>(NULL); }
+		Trie(){ _rootNode = new TrieNode<CharType>(0L); }
 		~Trie(){ delete _rootNode; }
 
 		// Search function. Requires pointers to the start / end of the input buffer to search.
@@ -312,3 +314,4 @@ class Trie
 };
 }
 #endif
+
